@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The first task validation</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+    <div class="wrap">
+	 	<form id="formone">
+	 		<h2>Связаться с нами</h2>
+	 		<label>
+	 			Ваше имя:
+	 			<input type="text" name="name" id="userName" />
+	 			<span id="error" class="vaid" ></span>
+	 			
+	 		</label>
+	 		<label>
+	 			Ваш телефон:
+	 			<input type="text" name="phone" id="userPhone" placeholder="000-00-00" />
+	 			<span id="error_phone" class="vaid" ></span>	
+	 		</label>
+	 		<label>
+	 			Ваш город:
+	 			<input type="text" name="city" id="userCity" />
+	 			<span id="error_city" class="vaid" ></span>	 			
+	 		</label>
+	 		<label>
+	 			Ваш пароль:
+	 			<input type="password" name="password" id="userPassword" />
+	 			<span id="error_password" class="vaid" ></span>	 			
+	 		</label>
+	 		<label>
+	 			Дата:
+	 			<input type="text" name="date" id="userDate" placeholder="дд.мм.ггг" />
+	 			<span id="error_date" class="vaid" ></span>		 			
+	 		</label>
+	 		<div class="button_wrap">
+	 			<button id="btn" type="submit" class="button btn_green">Отправить заявку</button>
+	 		</div>	 						
+	 	</form>
+	</div>
+
+
+	<script src="js/common.js"></script>
+
+</body>
+</html>
