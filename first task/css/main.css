@@ -1,153 +1,146 @@
 body {
-  font-family: "Raleway", sans-serif;
-  color: #333;
-  font-weight: normal;
-  font-size: 16px;
-  min-width: 320px;
-  position: relative;
-  line-height: 1.6;
-  -webkit-font-smoothing: antialised;
-  overflow-x: hidden; }
-
-
-.wrap{	
+	font-family: "Raleway", sans-serif;
+	color: #333;
+	font-weight: normal;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	overflow-x: hidden;
+}
+.wrap {
 	display: flex;
 	justify-content: center;
 	margin-top: 30px;
 }
-
-
-
 .button {
-  border: none;
-  cursor: pointer;
-  display: inline-block;
-  height: 46px;
-  line-height: 46px;
-  padding: 0 32px;
-  background-color: #000;
-  text-transform: uppercase;
-  text-align: center;
-  color: #fff;
-  border-radius: 3px;
-  font-size: 16px;
-  font-family: "Raleway", sans-serif; }
-
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	height: 46px;
+	line-height: 46px;
+	padding: 0 32px;
+	background-color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 16px;
+	font-family: "Raleway", sans-serif;
+}
 .button.btn_green {
-    background-color: #67bc5c; }
-
+	background-color: #67bc5c;
+}
 form {
-  background-color: #F7F7F7;
-  padding: 25px 200px 25px 25px;
-  border: #67bc5c 5px solid;
-  border-radius: 5px; 
-  width: 400px;
+	background-color: #F7F7F7;
+	padding: 25px 200px 25px 25px;
+	border: #67bc5c 5px solid;
+	border-radius: 5px;
+	width: 400px;
 
-  }
-  form h2 {
-    text-transform: uppercase;
-    color: #333;
-    margin-top: 0;
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 22px;
-    margin-bottom: 30px; }
-  form label {
-    display: block;
-    margin-bottom: 15px;
-    color: #666;
-    font-size: 14px; }
-  form input,
-  form select {
-    display: block;
-    line-height: 40px;
-    height: 40px;
-    border: solid 1px #D9D9D9;
-    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.06) inset;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.06) inset;
-    width: 85%;
-    text-indent: 10px;
-    font-size: 20px;
-    margin-top: 3px;
-     }
-    form input:focus {
-      /*-webkit-box-shadow: #67bc5c 0 0 0 2px;
-      box-shadow: #67bc5c 0 0 0 2px;*/
-      border-radius: 3px;
-      /*border-color: #67bc5c;*/
-      outline: 0; }
-
-  form .button_wrap {
-    text-align: center;
-    margin: 30px 0 10px; }
-
-.wrap .help {	
+}
+form h2 {
+	text-transform: uppercase;
+	color: #333;
+	margin-top: 0;
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 22px;
+	margin-bottom: 30px;
+}
+form label {
+	display: block;
+	margin-bottom: 15px;
+	color: #666;
+	font-size: 14px;
+}
+form input,
+form select {
+	display: block;
+	line-height: 40px;
+	height: 40px;
+	border: solid 1px #D9D9D9;
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.06) inset;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.06) inset;
+	width: 85%;
+	text-indent: 10px;
+	font-size: 20px;
+	margin-top: 3px;
+}
+form input:focus {
+	/*-webkit-box-shadow: #67bc5c 0 0 0 2px;
+	box-shadow: #67bc5c 0 0 0 2px;*/
+	border-radius: 3px;
+	/*border-color: #67bc5c;*/
+	outline: 0;
+}
+form .button_wrap {
+	text-align: center;
+	margin: 30px 0 10px;
+}
+.wrap .help {
 	font-size: 17px;
 	font-style: italic;
 	border-radius: 3px;
 	padding: 0 5px 0 5px;
-    right: 431px;
-    top: 117px;
-    position: absolute;
-	
-}
+	right: 431px;
+	top: 117px;
+	position: absolute;
 
-.error {	
+}
+.error {
 	border: 3px solid red;
 }
-
 .valid {
 	border: 3px dashed green;
 }
 #error {
 	font-size: 17px;
-	font-style: italic;	
-    right: 431px;
-    top: 117px;
-    position: absolute;    
-    font-weight: bold;
+	font-style: italic;
+	right: 431px;
+	top: 117px;
+	position: absolute;
+	font-weight: bold;
 }
+
 #error_city {
 	font-size: 17px;
-	font-style: italic;	
-    right: 431px;
-    top: 286px;
-    position: absolute;    
-    font-weight: bold;
-
+	font-style: italic;
+	right: 431px;
+	top: 286px;
+	position: absolute;
+	font-weight: bold;
 }
 
 #error_password {
 	font-size: 17px;
-	font-style: italic;	
-    right: 405px;
-    bottom: 197px;
-    position: absolute;    
-    font-weight: bold;
-    width: 194px;
+	font-style: italic;
+	right: 405px;
+	bottom: 197px;
+	position: absolute;
+	font-weight: bold;
+	width: 194px;
 
 }
 #error_date {
 	font-size: 17px;
-	font-style: italic;	
-    right: 405px;
-    bottom: 124px;
-    position: absolute;    
-    font-weight: bold;
-    width: 194px;
+	font-style: italic;
+	right: 405px;
+	bottom: 124px;
+	position: absolute;
+	font-weight: bold;
+	width: 194px;
 
 }
-
 #error_phone {
 	font-size: 17px;
-	font-style: italic;	
-    right: 405px;
-    bottom: 387px;
-    position: absolute;    
-    font-weight: bold;
-    width: 194px;
-
+	font-style: italic;
+	right: 405px;
+	bottom: 387px;
+	position: absolute;
+	font-weight: bold;
+	width: 194px;
 }
 
 
